@@ -6,7 +6,7 @@
 
 .container{
     width: 100% ;
-    height: 5000px ;
+    height: 6000px ;
     background-color: white ;
     position: relative ;
 }
@@ -188,23 +188,533 @@
     line-height: 55px ;
 }
 
-.items img{
+.item img{
     height: 70px ;
     width: 200px ;
     object-fit: cover;
 }
 
-.brand-banner{
+.banner-of-brand{
     height: 79px ;
     width: 1350px ;
     margin: 60px 85px 0 85px ;
     padding-top: 5px ;
     display: flex;
+    position: relative ;
 }
 
 .hot-items-sections{
     height: 886px ;
     width: 1377px ;
     margin: 0 72px 0 72px ;
+    position: relative ;
+    padding: 115px 0 115px 0 ;
+
+}
+
+.hot-items-sections-images{
+    height: 656px ;
+    width: 100% ;
+    margin-bottom: 0 ;
+    display: flex;
+}
+
+.hot-items-sections-text{
+    font-family: Roboto, sans-serif ;
+    width: 43.2px ;
+    height: 648px ;
+    display: flex ;
+    font-size: 36px ;
+    /* position: relative ; */
+    transform: rotate(90deg);
+}
+
+.top-category-main{
+    position: relative ;
+    display: flex;
+    align-items: flex-end;
+    height: 647px ;
+    width: 647px ;
+}
+.top-category-main img{
+    height: 647px ;
+    width: 647px ;
+}
+
+.banner-1{
+    background-color: #1E2832;
+    height: 40px ;
+    width: 100% ;
+    padding: 20px 20px 20px 20px ;
+    position: absolute ;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    color: white ;
+    font-family: "Open Sans", sans-serif ;
+    display: none ;
+    font-size: 16px;
+}
+
+.genre{
+    height: 21.6px ;
+    width: auto ;
+}
+
+.number{
+    height: 21.6px ;
+    width: auto ;
+}
+
+.top-category-main:hover .banner-1{
+    display: block ;
+    display: flex;
+}
+
+.top-category-right{
+    height: 656px ;
+    width: 648px ;
+    display: flex ;
+    margin-left: 25px ;
+    background-color: white;
+    flex-wrap: wrap ;
+}
+
+.top-category-right-item1:hover .banner-1{
+    display: block ;
+    display: flex ;
+}
+
+.top-category-right-item1{
+    height: 312px ;
+    width: 312px ;
+    display: flex;
+    align-items: flex-end;
+    position: relative ;
+    margin-right: 24px ;
+}
+.top-category-right-item1 .img{
+    height: 312px ;
+    width: 312px ;
+}
+
+.top-category-right-item3{
+    height: 312px ;
+    width: 312px ;
+    display: flex;
+    align-items: flex-end;
+    position: relative ;
+}
+
+.top-category-right-item3 .img{
+    height: 312px ;
+    width: 312px ;
+}
+
+.top-category-right-item3:hover .banner-1{
+    display: block ;
+    display: flex ;
+}
+
+.top-category-right-item2{
+    height: 312px ;
+    width: 312px ;
+    display: flex;
+    align-items: flex-end;
+    position: relative ;
+    margin-right: 24px ;
+    margin-top: 24px ;
+}
+
+.top-category-right-item2 .img{
+    height: 312px ;
+    width: 312px ;
+}
+
+.top-category-right-item2:hover .banner-1{
+    display: block ;
+    display: flex ;
+}
+
+.top-category-right-item4{
+    height: 312px ;
+    width: 312px ;
+    display: flex;
+    align-items: flex-end;
+    position: relative ;
+    margin-top: 24px ;
+}
+
+.top-category-right-item4 .img{
+    height: 312px ;
+    width: 312px ;
+}
+
+.top-category-right-item4:hover .banner-1{
+    display: block ;
+    display: flex ;
+}
+
+.product-view-template-section{
+    width: 100% ;
+    height: 1303.6px ;
+    position: relative ;
+}
+
+.product-view-header{
+    height: 100% ;
+    width: 89.4% ;
+    margin: auto ;
+    position: relative;
+    padding: 100px 0 100px 0 ;
+}
+
+.product-view-header h1{
+    height: 53.6px ;
+    font-size: 45px ;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif ;
+    font-weight: 700 ;
+    text-align: center;
+    position: sticky ;
+    transform: scale(0.9,0.9) ;
+}
+
+.product-view-header-detail{
+    height: 66.6px ;
+    width: 100% ;
+    padding: 35px 0 0 0 ;
+    display: flex ;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: sticky ;
+}
+
+.product-view-header-detail-genre{
+    height: 21.6px ;
+    width: 400px ;
+    font-family: "Open Sans", sans-serif ;
+    display: flex ;
+    font-size: 16px ;
+    list-style-type: none ;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600px ;
+    word-spacing: 0px ;
+}
+
+.all-product{
+    color: #000000  ;
+    font-weight: 600 ;
+    word-spacing: 0px;
+    cursor: pointer ;
+}
+.general-product{
+    color: #7F7F7F;
+    cursor: pointer;
+}
+.product-view-header-detail-filter{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31.6px ;
+    width: 87.5625px ;
+    font-family: "Open Sans", sans-serif ;
+    font-size: 16px ;
+    color: #FFFFFF ;
+}
+
+.product-view-header-products{
+    width: 100% ;
+    height: 948.4px ;
+    padding: 0 5px 0 5px ;
+    margin-top: 33px ;
+    display: flex ;
+    flex-wrap: wrap ;
+}
+
+.banner-2{
+    background-color: #000000;
+    height: 40px ;
+    width: 100% ;
+    padding: 20px 20px 20px 20px ;
+    position: absolute ;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    color: white ;
+    font-family: "Open Sans", sans-serif ;
+    display: none ;
+    font-size: 16px;
+}
+.shop-now{
+    height: 18px ;
+    width: auto ;
+    background-color: #000000;
+    color: white ;
+    border: none ;
+    font-style: Arial, sans-serif ;
+    font-size: 16px ;
+    cursor: pointer;
+}
+.shop-now:hover{
+    color: #FF6F61 ;
+    transform: scale(1.1,1.1) ;
+}
+.product-detail{
+    width: 100% ;
+    height: 43.2px ;
+    margin-top: 15px;
+}
+.product-name{
+    font-family: "Open Sans", sans-serif ;
+    font-size: 16px ;
+    font-weight: 600 ;
+    height: 21.6px ;
+    width: 302px ;
+    margin: auto ;
+    text-transform: capitalize;
+}
+.genre-price{
+    height: 21.6px ;
+    width: 302px ;
+    font-family: "Open Sans",sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto ;
+}
+.product-genre{
+    color: #7F7F90 ;
+}
+.product-price{
+    font-weight: 600;
+    display: flex ;
+}
+
+.product-function{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px ;
+    width: 58px ;
+}
+.product-function img{
+    height: 24px !important ;
+    width: 24px !important ;
+}
+
+.adicolor_classic_jogger{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+
+.adicolor_classic_jogger_image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+.adicolor_classic_jogger_image img{
+    height: 400px ;
+    width: 312px ;
+}
+
+.adicolor_classic_jogger:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+
+.nike-sportswear-future-luxe{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+
+.nike-sportswear-future-luxe-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+
+.nike-sportswear-future-luxe-image img{
+    height: 400px ;
+    width: 312px ;
+}
+
+.nike-sportswear-future-luxe:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+.geometric-print-scarf{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+
+.geometric-print-scarf-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+
+.geometric-print-scarf-image img{
+    height: 400px ;
+    width: 312px ;
+}
+
+.geometric-print-scarf:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+
+.original-price{
+    color: #BFBFBF ;
+    text-decoration: line-through;
+    margin-right: 10px ;
+    font-style: "Times New Roman";
+    font-size: 15px ;
+}
+.yellow-reserved-hoodie{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+}
+
+.yellow-reserved-hoodie-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+
+.yellow-reserved-hoodie-image img{
+    height: 400px ;
+    width: 312px ;
+}
+
+.yellow-reserved-hoodie:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+
+.basic-dress-green{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+    margin-top: 25px ;
+}
+
+.basic-dress-green-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+
+.basic-dress-green-image img{
+    height: 400px ;
+    width: 312px ;
+}
+
+.basic-dress-green:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+.nike-air-zoom-pegasus{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+    margin-top: 25px ;
+}
+
+.nike-air-zoom-pegasus-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+
+.nike-air-zoom-pegasus-image img{
+    height: 400px ;
+    width: 312px ;
+}
+
+.nike-air-zoom-pegasus:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+
+.nike-repel-miler{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+    margin-top: 25px ;
+}
+.nike-repel-miler-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+.nike-repel-miler-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.nike-repel-miler:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+
+.futura-luxe-classic-jogger{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-top: 25px ;
+}
+.futura-luxe-classic-jogger-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+}
+.futura-luxe-classic-jogger-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.futura-luxe-classic-jogger:hover .banner-2{
+    display: block ;
+    display: flex ;
+}
+
+.brand-banner-section{
+    width: 100% ;
+    height: 775px ;
+    margin-top: 50px ;
+    position: relative ;
+    object-fit: cover;
     
+}
+
+.brand-banner-section-background{
+    width: 100% ;
+    height: 100% ;
+    background-image: url(/Kiem_tra_cuoi_khoa/assets/images/zara_red_dress.webp);
+}
+
+/* .brand-banner-section-background img{
+    width: 100% ;
+    height: 775px ;
+    transform: scaleX(-1);
+    z-index: 0 ;
+} */
+
+.brand-banner-section-text{
+    margin: auto ;
+    z-index: 500 ;
 }
