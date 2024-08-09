@@ -58,19 +58,9 @@
     background-color: #F4F4F5 ;
     font-family: Arial, sans-serif ;
     font-size: 24px ;
-    padding-left: 55px ;
+    padding-left: 36px ;
     outline: none ;
 }
-
-/* .search input[type="text"]:focus{
-    border: none ;
-} */
-
-/* .close-button{
-    display: flex ;
-    justify-content: center;
-    align-items: center ;
-} */
 
 .page_logo{
     height: 32px ;
@@ -216,29 +206,28 @@
     line-height: 55px ;
 }
 .owl-nav{ /*tắt thanh điều hướng đi*/
-    display: none !important ; 
+    /* display: none !important ;  */
 }
+
 .banner-of-brand{
     height: 80px ;
     width: 1350px ;
     margin: 60px 85px 0 85px ;
     padding: 5px 0 0 0 ;
+    /* position: relative ; */
+    /* align-items: center; */
     display: flex;
-    position: relative ;
-    align-items: center;
-    /* flex-direction: row ; */
+    /* justify-content: space-between; */
 }
 
 .banner-of-brand .item img{
     height: auto ;
     width: auto ;
-    position: absolute ;
-    margin-right: 44px ;
-    margin-left: 44px ;
+    /* position: absolute ; */
 }
 
 .hot-items-sections{
-    height: 886px ;
+    height: auto ;
     width: 1377px ;
     margin: 0 72px 0 72px ;
     position: relative ;
@@ -256,11 +245,17 @@
 .hot-items-sections-text{
     font-family: Roboto, sans-serif ;
     width: 43.2px ;
-    height: 648px ;
+    height: auto ;
+    /* height: 648px ;
     display: flex ;
+    transform: rotate(90deg);*/
+    position: relative ;
+    writing-mode: vertical-rl ;
+    transform: rotate(180deg) scale(1,0.95) ;
     font-size: 36px ;
-    /* position: relative ; */
-    transform: rotate(90deg);
+    white-space: nowrap ;
+    display: flex ;
+    text-transform: uppercase ;
 }
 
 .top-category-main{
@@ -391,7 +386,7 @@
 
 .product-view-template-section{
     width: 100% ;
-    height: 1303.6px ;
+    height: auto ;
     position: relative ;
 }
 
@@ -740,20 +735,6 @@
     align-items: center; */
 }
 
-/* .brand-banner-section-background{
-    width: 100% ;
-    height: 100% ;
-    background-image: url(/Kiem_tra_cuoi_khoa/assets/images/zara_red_dress.webp);
-    transform: scaleX(-1);
-} */
-
-/* .brand-banner-section-background img{
-    width: 100% ;
-    height: 775px ;
-    transform: scaleX(-1);
-    z-index: 0 ;
-} */
-
 .brand-banner-section-text{
     width: 88.8% ;
     height: 50% ;
@@ -815,7 +796,7 @@
 
 .bestseller-items{
     margin: auto ;
-    height: 689px ;
+    height: 695px ;
     width: 88.1% ;
     padding: 20px 20px 20px 20px ;
     position: relative ;
@@ -897,7 +878,7 @@
 }
 
 .banner-3{
-    width: 100% ;
+    width: 100%  ; 
     height: 10% ;
     background-color: #1E2832;
     color: white ;
@@ -908,6 +889,13 @@
     font-family: "Open Sans", sans-serif ;
     font-size: 16px ;
     display: none ;
+    position: absolute ;
+}
+
+.reaction{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
 }
 .reaction img{
     height: 16px !important;
@@ -915,6 +903,33 @@
     margin-right: 5px !important;
     cursor: pointer !important;
 }
+.product-description{
+    width: 100% ;
+    height: 21.6px ;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px ;
+}
+.best-detail{
+    font-family: "Open Sans", sans-serif ;
+    font-size: 16px ;
+}
+.product-tag{
+    padding-left: 10px ;
+    font-weight: 600 ;
+}
+.genre-product{
+    color: #A5A5A5 ;
+}
+.price-product{
+    color: #FF6F61 ;
+    font-weight: 600 ;
+    width: auto ;
+    display: flex ;
+
+}
+
 .shop-now-best:hover{
     color: #FF6F52 ;
     transform: scale(1.1,1.1);
@@ -927,35 +942,182 @@
     position: relative;
     margin-right: 30px ;
 }
-
 .adicolor-classic-jogger-best-image{
     display: flex ;
     align-items: flex-end;
     position: relative;
+    width: 100% ;
+    height: 87.14% ;
 }
-
 .adicolor-classic-jogger-best-image img{
     height: 400px ;
     width: 312px ;
 }
-
 .adicolor-classic-jogger-best:hover .banner-3{
     display: block ;
     display: flex ;
 }
 
 
+.nike-sportswear-future-luxe-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+.nike-sportswear-future-luxe-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.nike-sportswear-future-luxe-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.nike-sportswear-future-luxe-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
 
+.geometric-print-scarf-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+.geometric-print-scarf-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.geometric-print-scarf-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.geometric-print-scarf-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
 
+.basic-dress-green-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+.basic-dress-green-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.basic-dress-green-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.basic-dress-green-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
 
+.yellow-reserved-hoodie-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+.yellow-reserved-hoodie-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.yellow-reserved-hoodie-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.yellow-reserved-hoodie-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
 
+.nike-air-zoom-pegasus-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+.nike-air-zoom-pegasus-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.nike-air-zoom-pegasus-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.nike-air-zoom-pegasus-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
 
+.nike-repel-miler-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    margin-right: 30px ;
+}
+.nike-repel-miler-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.nike-repel-miler-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.nike-repel-miler-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
+
+.futura-luxe-classic-jogger-best{
+    height: 459px ;
+    width: 312px ;
+    position: relative;
+    /* margin-right: 30px ; */
+}
+.futura-luxe-classic-jogger-best-image{
+    display: flex ;
+    align-items: flex-end;
+    position: relative;
+    width: 100% ;
+    height: 87.14% ;
+}
+.futura-luxe-classic-jogger-best-image img{
+    height: 400px ;
+    width: 312px ;
+}
+.futura-luxe-classic-jogger-best:hover .banner-3{
+    display: block ;
+    display: flex ;
+}
 
 
 .follow-instagram{
