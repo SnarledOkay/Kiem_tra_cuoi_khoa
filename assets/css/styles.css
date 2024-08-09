@@ -941,19 +941,20 @@
     width: auto ;
 } */
 
-.bestseller-items-scroll .item{
-    height: 100% ;
-    width: 312px ;
+.bestseller-items-scroll{
+    height: auto;
+    width: 100% ;
     margin-top: 40px ;
-    position: absolute;
-    margin-right: 30px ;
+    position: relative ;
+    /* margin-right: 30px ; */
 }
+
 
 .adicolor-classic-jogger-best{
     height: 100% ;
-    width: 100% ;
-    position: relative;
-    /* margin-right: 30px ; */
+    width: 312px;
+    /* position: relative ; */
+    margin-right: 30px ;
 }
 .adicolor-classic-jogger-best-image{
     display: flex ;
@@ -973,10 +974,10 @@
 
 
 .nike-sportswear-future-luxe-best{
-    height: 100% ;
-    width: 100% ;
-    position: relative;
-    /* margin-right: 30px ; */
+    height: 459px ;
+    width: 312px ;
+    /* position: absolute ; */
+    margin-right: 30px ;
 }
 .nike-sportswear-future-luxe-best-image{
     display: flex ;
@@ -998,8 +999,8 @@
 .geometric-print-scarf-best{
     height: 459px ;
     width: 312px ;
-    position: relative;
-    /* margin-right: 30px ; */
+    /* position: absolute ; */
+    margin-right: 30px ;
 }
 .geometric-print-scarf-best-image{
     display: flex ;
@@ -1021,8 +1022,8 @@
 .basic-dress-green-best{
     height: 459px ;
     width: 312px ;
-    position: relative;
-    /* margin-right: 30px ; */
+    /* position: absolute ; */
+    margin-right: 30px ;
 }
 .basic-dress-green-best-image{
     display: flex ;
@@ -1044,8 +1045,8 @@
 .yellow-reserved-hoodie-best{
     height: 459px ;
     width: 312px ;
-    position: relative;
-    /* margin-right: 30px ; */
+    /* position: absolute ; */
+    margin-right: 30px ;
 }
 .yellow-reserved-hoodie-best-image{
     display: flex ;
@@ -1067,8 +1068,7 @@
 .nike-air-zoom-pegasus-best{
     height: 459px ;
     width: 312px ;
-    position: relative;
-    /* margin-right: 30px ; */
+    margin-right: 30px ;
 }
 .nike-air-zoom-pegasus-best-image{
     display: flex ;
@@ -1090,8 +1090,8 @@
 .nike-repel-miler-best{
     height: 459px ;
     width: 312px ;
-    position: relative;
-    /* margin-right: 30px ; */
+    /* position: absolute ; */
+    margin-right: 30px ;
 }
 .nike-repel-miler-best-image{
     display: flex ;
@@ -1113,8 +1113,8 @@
 .futura-luxe-classic-jogger-best{
     height: 459px ;
     width: 312px ;
-     position: relative;
-    /* margin-right: 30px ; */
+    /* position: absolute ; */
+    margin-right: 30px ;
 }
 .futura-luxe-classic-jogger-best-image{
     display: flex ;
