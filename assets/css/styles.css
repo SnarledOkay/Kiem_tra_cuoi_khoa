@@ -206,7 +206,7 @@
     line-height: 55px ;
 }
 .owl-nav{ /*tắt thanh điều hướng đi*/
-    /* display: none !important ;  */
+    display: none !important ;
 }
 
 .banner-of-brand{
@@ -221,9 +221,8 @@
 }
 
 .banner-of-brand .item img{
-    height: auto ;
+    height: 100% ;
     width: auto ;
-    /* position: absolute ; */
 }
 
 .hot-items-sections{
@@ -869,14 +868,6 @@
     background-color: #FF6F61;
 }
 
-.bestseller-items-scroll{
-    width: 100% ;
-    height: 58.13% ;
-    display: flex ;
-    position: relative ;
-    margin-top: 40px ;
-}
-
 .banner-3{
     width: 100%  ; 
     height: 10% ;
@@ -936,22 +927,44 @@
     cursor: pointer ;
 }
 
-.adicolor-classic-jogger-best{
-    height: 459px ;
+/* .bestseller-items-scroll{
+    width: 100% ;
+    height: auto ;
+    position: relative ;
+    margin-top: 20px ;
+    padding-top: 0 ;
+    display: flex ;
+} */
+
+/* .bestseller-items-scroll .item{
+    height: 100% ;
+    width: auto ;
+} */
+
+.bestseller-items-scroll .item{
+    height: 100% ;
     width: 312px ;
-    position: relative;
+    margin-top: 40px ;
+    position: absolute;
     margin-right: 30px ;
+}
+
+.adicolor-classic-jogger-best{
+    height: 100% ;
+    width: 100% ;
+    position: relative;
+    /* margin-right: 30px ; */
 }
 .adicolor-classic-jogger-best-image{
     display: flex ;
     align-items: flex-end;
     position: relative;
     width: 100% ;
-    height: 87.14% ;
+    height: 87% ;
 }
 .adicolor-classic-jogger-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .adicolor-classic-jogger-best:hover .banner-3{
     display: block ;
@@ -960,10 +973,10 @@
 
 
 .nike-sportswear-future-luxe-best{
-    height: 459px ;
-    width: 312px ;
+    height: 100% ;
+    width: 100% ;
     position: relative;
-    margin-right: 30px ;
+    /* margin-right: 30px ; */
 }
 .nike-sportswear-future-luxe-best-image{
     display: flex ;
@@ -973,8 +986,8 @@
     height: 87.14% ;
 }
 .nike-sportswear-future-luxe-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .nike-sportswear-future-luxe-best:hover .banner-3{
     display: block ;
@@ -986,7 +999,7 @@
     height: 459px ;
     width: 312px ;
     position: relative;
-    margin-right: 30px ;
+    /* margin-right: 30px ; */
 }
 .geometric-print-scarf-best-image{
     display: flex ;
@@ -996,8 +1009,8 @@
     height: 87.14% ;
 }
 .geometric-print-scarf-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .geometric-print-scarf-best:hover .banner-3{
     display: block ;
@@ -1009,7 +1022,7 @@
     height: 459px ;
     width: 312px ;
     position: relative;
-    margin-right: 30px ;
+    /* margin-right: 30px ; */
 }
 .basic-dress-green-best-image{
     display: flex ;
@@ -1019,8 +1032,8 @@
     height: 87.14% ;
 }
 .basic-dress-green-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .basic-dress-green-best:hover .banner-3{
     display: block ;
@@ -1032,7 +1045,7 @@
     height: 459px ;
     width: 312px ;
     position: relative;
-    margin-right: 30px ;
+    /* margin-right: 30px ; */
 }
 .yellow-reserved-hoodie-best-image{
     display: flex ;
@@ -1042,8 +1055,8 @@
     height: 87.14% ;
 }
 .yellow-reserved-hoodie-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .yellow-reserved-hoodie-best:hover .banner-3{
     display: block ;
@@ -1055,7 +1068,7 @@
     height: 459px ;
     width: 312px ;
     position: relative;
-    margin-right: 30px ;
+    /* margin-right: 30px ; */
 }
 .nike-air-zoom-pegasus-best-image{
     display: flex ;
@@ -1065,8 +1078,8 @@
     height: 87.14% ;
 }
 .nike-air-zoom-pegasus-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .nike-air-zoom-pegasus-best:hover .banner-3{
     display: block ;
@@ -1078,7 +1091,7 @@
     height: 459px ;
     width: 312px ;
     position: relative;
-    margin-right: 30px ;
+    /* margin-right: 30px ; */
 }
 .nike-repel-miler-best-image{
     display: flex ;
@@ -1088,8 +1101,8 @@
     height: 87.14% ;
 }
 .nike-repel-miler-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .nike-repel-miler-best:hover .banner-3{
     display: block ;
@@ -1100,7 +1113,7 @@
 .futura-luxe-classic-jogger-best{
     height: 459px ;
     width: 312px ;
-    position: relative;
+     position: relative;
     /* margin-right: 30px ; */
 }
 .futura-luxe-classic-jogger-best-image{
@@ -1111,8 +1124,8 @@
     height: 87.14% ;
 }
 .futura-luxe-classic-jogger-best-image img{
-    height: 400px ;
-    width: 312px ;
+    width: 100% ;
+    height: auto ;
 }
 .futura-luxe-classic-jogger-best:hover .banner-3{
     display: block ;

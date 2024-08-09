@@ -1,11 +1,13 @@
 $(document).ready(function(){
-    $('.basic-demo-1').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop:true,
         margin:44,
         nav:false,
         autoplay: true ,
         dots: false, 
-        autoplayTimeout: 1000, 
+        autoplayTimeout: 2000, 
+        autoplaySpeed: 2000,
+        slideTransition:'linear',
         responsive:{
             0:{
                 items:1
@@ -18,7 +20,10 @@ $(document).ready(function(){
             }
         }
     })
-    $('.basic-demo-2').owlCarousel({
+});
+
+$(document).ready(function(){
+    $('.bestseller-items-scroll').owlCarousel({
         loop:false,
         margin:30,
         nav:true,
@@ -36,8 +41,4 @@ $(document).ready(function(){
         }
     }) ;
 });
-
-// $(document).ready(function(){
-    
-// });
 
