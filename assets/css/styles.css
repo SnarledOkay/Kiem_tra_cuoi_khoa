@@ -205,9 +205,6 @@
     width: 100% ;
     line-height: 55px ;
 }
-.owl-nav{ /*tắt thanh điều hướng đi*/
-    display: none !important ;
-}
 
 .banner-of-brand{
     height: 80px ;
@@ -927,28 +924,61 @@
     cursor: pointer ;
 }
 
-/* .bestseller-items-scroll{
+.bestseller-items-scroll{
     width: 100% ;
     height: auto ;
     position: relative ;
     margin-top: 20px ;
     padding-top: 0 ;
     display: flex ;
-} */
+    /* padding-left: 20px ;
+    padding-right: 20px ; */
+}
 
 /* .bestseller-items-scroll .item{
     height: 100% ;
     width: auto ;
 } */
 
-.bestseller-items-scroll{
-    height: auto;
+.san-pham-ban-chay .owl-nav{
+    position: absolute;
+    top: 40% ;
     width: 100% ;
-    margin-top: 40px ;
-    position: relative ;
-    /* margin-right: 30px ; */
+    display: flex ;
+    justify-content: space-between;
 }
 
+.san-pham-ban-chay .owl-prev{
+    /* left: 20px ; */
+    height: 27px ;
+    width: 27px ;
+    border-radius: 50% ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6D6D6;
+    /* transform: scale(2,2); */
+    z-index:900 ;
+}
+
+.san-pham-ban-chay .owl-next{
+    /* right: 20px ; */
+    height: 27px ;
+    width: 27px ;
+    border-radius: 50% ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6D6D6;
+}
+.bestseller-items-scroll    {
+    /* height: auto;
+    width: 100% ;
+    margin-top: 40px ;
+    position: relative ; */
+    /* margin-right: 30px ; */
+    margin-top: 40px ;
+}
 
 .adicolor-classic-jogger-best{
     height: 100% ;
@@ -1218,6 +1248,7 @@
     background-color: #F4F4F5;
     border-bottom: 2px solid black ;
     margin-right: 20px; 
+    outline:none ;
 }
 
 .submit-email{

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.brand-of-banner').owlCarousel({
+    $('.banner-thuong-hieu').owlCarousel({
         loop:true,
         margin:44,
         nav:false,
@@ -20,19 +20,23 @@ $(document).ready(function(){
             }
         }
     })
-    $('.bestseller-items-scroll').owlCarousel({
+    $('.san-pham-ban-chay').owlCarousel({
         loop:false,
-        margin:30,
+        margin:70,
         nav:true,
+        dots: false ,
+        // autoplay: true ,
+        // autoplayTimeout: 2000 ,
+        // autoplaySpeed: 2000, 
         responsive:{
             0:{
                 items:1
             },
             600:{
-                items:3
+                items:2 
             },
             1000:{
-                items:5
+                items:4
             }
         }
     }) ;
